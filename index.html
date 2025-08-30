@@ -1,0 +1,64 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Health and Fitness Survey Form</title>
+   <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+<h1 id="title">Health and Fitness Survey Form</h1>
+<p id="description">"We value your input to help us understand your health and fitness habit better. Please complete the form below."
+  <h2>Personal Information</h2>
+  <form id="survey-form" method="post">
+    <fieldset>
+    <label for="name" id="name-label"> Name:<input id="name" type="text" name="name" placeholder="Enter your full name" type="text"  required/></label>
+  <label for="email" id="email-label">Email:<input id="email" type="email" name="email" placeholder="Enter your email" required/></label>
+  <label for="age" id="number-label">Age:<input id="number" type="number" name="age"  max="120" min="14" placeholder="Enter your age" required/>
+  </label><label for="gender">Gender:<select id="my-gender" name="gender">
+    <option value="7">select your gender</option>
+    <option value="8">Male</option>
+    <option value="9">Female</option></select>
+    </label> 
+  </fieldset>
+    
+    <h2>Health and fitness details</h2>
+    <fieldset>
+      <label for="referrer">How often do you exercise each week?<select id="dropdown" name="referrer">
+        <option value=" ">Select one</option>
+        <option value="1">1-2 times</option>
+        <option value="2">3-4 times</option>
+        <option value="3">5-6 times</option>
+        <option value="4">Everyday</option></select>
+        </label>
+        </fieldset>
+        <fieldset>
+        <legend>What is your preferred exercise type?</legend>
+        <label for="cardio"><input id="cardio" type="radio" name="exercise-type" value="cardio" class="inline" checked>Cardio</label>
+        <label for="strength-training"><input id="strength-training" type="radio" name="exercise-type" value="strength-training" class="inline" >Strength Training</label>
+        <label for="yoga-pilates"><input id="yoga-pilates" name="exercise-type" type="radio" class="inline" value="yoga-pilates" >Yoga/Pilates</label>
+        <label for="mixed-or-other"><input id="mixed-or-other" name="exercise-type" type="radio"
+        class="inline" value="mixed-other" >Mixed/other</label>
+        <label>
+    </fieldset>
+    <fieldset>
+      <legend>What are your health and fitness goals?</legend>
+      <label for="weight-loss"><input type="checkbox" name="weight-loss" id="weight-loss" value="weight-loss">Weight loss</label>
+      <label for="muscle gain"><input type="checkbox"
+      name="muscle gain" id="muscle gain" value="muscle gain">Muscle gain</label>
+      <label for="flexibility"><input type="checkbox" name="flexibility" id="flexibility" value="flexibility">Flexibility</label>
+      <label for="endurance"><input type="checkbox" name="endurance" id="endurance" value="endurance">Endurance</label>
+      <label for="general well-being"><input type="checkbox" name="general well-being" id="general well-being" value="general well-being">General Well-being</label>
+    </fieldset>
+    <legend>Please share any specific challenges or concerns related to your fitness journey</legend> 
+    <fieldset>
+      <textarea id="concerns" name="concerns" rows="4" cols"50" placeholder="Describe any challenges or concerns here..."></textarea>
+      
+    </feildset>
+    <button type="submit" id="submit">Submit Survey</button>
+  </body>
+  </html>
+
+** end of undefined **
+
