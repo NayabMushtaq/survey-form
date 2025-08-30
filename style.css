@@ -1,0 +1,51 @@
+vertical-align: middle;
+}
+label{
+  display: block;
+  width: 100%;
+
+}
+h1{
+text-align: center;
+font-family: sans;
+margin-top: 40px;
+color: #f3f7f3;
+
+}
+body{
+  width: 90%;
+  height: 100vh;
+  margin: 15px;
+  font-family: Tahoma;
+  font-size: 16px;
+  background-color: #9b8b9b; 
+}
+h2{
+  text-align: center;
+  font-family: sans serif;
+  color: #f2f2f3;
+}
+fieldset{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+input{
+  width: 100%;
+  color: #3f4f3f;
+}
+button{
+  color: #3f4f45;
+  background-color: #f3d2f3;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+   
+}
+
+
+
+
+** end of undefined **
+
